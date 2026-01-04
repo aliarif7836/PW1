@@ -1,0 +1,1 @@
+{"identification_code":"eEsUrS7uDlwM7a7GHppfdPsZ9fwuYI4D","url":"https://academy.naveenautomationlabs.com/s/store","title":"Store","referrer":"https%3A%2F%2Facademy.naveenautomationlabs.com%2F","screen_width":1280,"screen_height":720,"tags":{},"event_name":"Outbound Link Click","event_duration":0,"event_meta":{"url":"javascript:void(0);"}}
