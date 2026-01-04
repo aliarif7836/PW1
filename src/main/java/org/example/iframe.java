@@ -22,7 +22,20 @@ public class iframe {
         iframe.locator("//input[@id='vfb-5']").fill(userName);
         iframe.locator("//input[@id='vfb-7']").fill("Ali");
         iframe.locator("text=Male").first().click();
-        iframe.locator("#vfb-14").fill("arif.yopmail.com");
+        iframe.locator("#vfb-14").fill("arif.ali@yopmail.com");
+        iframe.locator("//input[@id='vfb-3']").fill("33");
+        iframe.locator("text=Submit").click();
+
+        String text = iframe.locator("//div[@id='messageContainer']").textContent();
+        System.out.println("Original text is : " + text);
+
+        String[] parts = text.split(":");
+
+        // trim() removes the leading space before the number
+        String id = parts[1].trim();
+
+        System.out.println("Here is your transaction id : " + id);
+
 
 
 
