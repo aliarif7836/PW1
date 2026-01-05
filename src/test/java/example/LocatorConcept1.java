@@ -1,4 +1,4 @@
-package org.example;
+package example;
 
 import com.microsoft.playwright.*;
 // Removed unused imports for a cleaner class
